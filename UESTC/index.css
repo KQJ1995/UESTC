@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif, Arial;
+}
+
+#header_first {
+    display: table-row;
+    border-spacing: 10px;
+}
+
+#header_first_row {
+    display: table-row;
+}
+
+
+#header_first_left,#header_first_center, #header_first_right {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width:33.333%;
+}
+
+#header_first_center {
+
+}
+
+#header_first_left_1 {
+    length:2.5%;
+    width:100%;
+}
+
+
+.header_first_right_search {
+    border-radius:1em;
+    line-height:2em;
+}
+
+
+#header {
+    display:table;
+    background: url("image/campus.jpg") top left;
+    width:100%;
+}
+
+.header_first_right_search {
+    background: url("image/search.jpg") no-repeat top left;
+    padding-left: 35px;
+}
